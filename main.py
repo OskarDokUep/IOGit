@@ -1,9 +1,16 @@
 class Kolo():
     def __init__(self,r):
+<<<<<<< HEAD
         self.pole = 3.14159265*r**2
 class Prostokat():
     def __init__(self,a ,b):
         self.pole = a*b
+=======
+        self.pole = 3.14*r**2
+class Prostokat():
+    def __init__(self,a ,b):
+        self.pole = b*a
+>>>>>>> rozwiazanie_figury2
 
 class Trojkat():
     def __init__(self,a,b,c):
